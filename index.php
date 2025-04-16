@@ -1,9 +1,6 @@
 <?php
 $nom='jack';
 
-if ($nom =='josue') {
-  echo('salut'.$nom);
-}else{
-    echo('salut mon pote');
-}
+require 'form_user.php';
+require 'submit_user.php';
 ?>
